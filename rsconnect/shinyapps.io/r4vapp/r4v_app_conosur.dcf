@@ -1,0 +1,13 @@
+name: r4v_app_conosur
+title: r4v_app_conosur
+username:
+account: r4vapp
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4020753
+bundleId: 5236695
+url: https://r4vapp.shinyapps.io/r4v_app_conosur/
+when: 1636555726.4317
+lastSyncTime: 1636555726.4317
+asMultiple: FALSE
+asStatic: FALSE
