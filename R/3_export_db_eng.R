@@ -40,7 +40,7 @@ rmrptranslate <- function(data)
   
   # Insert local file to get data in Spanish
   
-  df5WSpanish <- df5W
+  df5WSpanish <- df5WSP
   
   # Change column names to English template version
   
