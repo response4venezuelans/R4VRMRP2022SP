@@ -22,7 +22,7 @@ r4v_error_report <- function(data,countryname = NULL)
   activityinfo::activityInfoLogin("fayolle@unhcr.org", "126c199a4206a96f62a3d4f88e996c33")
   
   ### Double check colnames
-  
+
   colnames(df5W) <- c("Country",
                       "Admin1",
                       "Admin2",
@@ -53,7 +53,7 @@ r4v_error_report <- function(data,countryname = NULL)
                       "Men",
                       "Other_under",
                       "Other_above")
-  
+  #
   ### Filter the country if needed
   
   if (is.null(countryname) || (countryname=="All")) {
@@ -79,7 +79,7 @@ r4v_error_report <- function(data,countryname = NULL)
   IPlist <- unique(as.vector(dfIP["Nombre"]))
   countrylist <- unique(as.vector(dfadmin1["countryadmin1"]))
   admin2list <- unique(as.vector(dfadmin2["admin1and2"]))
-  sectindiclist <-  as.vector(dfindicator["sectindic"])
+  sectindiclist <-  as.vector(dfindSP["sectindic"])
   
   # Data Quality Check
   
