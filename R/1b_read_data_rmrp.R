@@ -20,6 +20,8 @@ r4v_pull_xlsdata <- function(data)
   
 {
 
+  activityinfo::activityInfoLogin("fayolle@unhcr.org", "126c199a4206a96f62a3d4f88e996c33")
+  
   df5W <- data
   
   # format column names for easier data processing

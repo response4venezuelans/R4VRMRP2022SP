@@ -19,6 +19,8 @@ r4v_error_report <- function(data,countryname = NULL)
   
   ### This script must be executed only after doing the read data script
   
+  activityinfo::activityInfoLogin("fayolle@unhcr.org", "126c199a4206a96f62a3d4f88e996c33")
+  
   ### Double check colnames
   
   colnames(df5W) <- c("Country",

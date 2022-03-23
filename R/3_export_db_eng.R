@@ -17,6 +17,8 @@ rmrptranslate <- function(data)
   # Translations obtained through already downloaded reference tables, missing values locally created
   # Edit colnames for easier referencing
   
+  activityinfo::activityInfoLogin("fayolle@unhcr.org", "126c199a4206a96f62a3d4f88e996c33")
+  
   colnames(dfAO) <- c("AOIDORG",
                       "NameAO", 
                       "NombreAO")
@@ -185,7 +187,7 @@ rmrptranslate <- function(data)
   
   # Write file
   
-  write_xlsx(df5Wtranslated, './out/Translated5W.xlsx')
+  #write_xlsx(df5Wtranslated, './out/Translated5W.xlsx')
   
   rm(indicatortransl,
      EnglishDelivery,
