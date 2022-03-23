@@ -26,7 +26,7 @@ r4v_pull_xlsdata <- function(data)
   
   # format column names for easier data processing
   
-  colnames(df5W) <- colnames("Country",
+  colnames(df5W) <- c("Country",
                       "Admin1",
                       "Admin2",
                       "Appealing_org",
