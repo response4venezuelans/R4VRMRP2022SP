@@ -96,6 +96,12 @@ r4v_pull_xlsdata <- function(data)
     mutate(admin1and2 = paste(Admin1, Admin2))%>%
     ungroup()
   
+  dfindicator  <<- queryTable("c49gyhmktedz4uj2",
+                              "Code" = "cob8rivktedzp0f3",
+                              "Subsector" = "cgdeh97ktn4sdek3s.cfvkmslkpy3tg94n",
+                              "Indicator" = "cwkj9p4kteeh4ls5",
+                              "Indicatortype" = "cprepl2ktk2l76a3", truncate.strings = FALSE)
+  
   dfindSP <<- queryTable("cqt45yktk2m8ky3",
                          "Codigo" = "cob8rivktedzp0f3",
                          "SectorSP" = "c84rjfckxgbve582",
