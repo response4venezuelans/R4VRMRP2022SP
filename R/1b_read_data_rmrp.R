@@ -1,20 +1,5 @@
-
-  #' @name pull_xlsdata
-#' @rdname pull_xlsdata
-#' @title Pull AI data from API
-#' @description 
-#'
-#' @param query
-#'
-#' @return frame
-#'
-#' @examples
-#'\dontrun{
-#' pull_aidata( )
-#' }
-#'
-#' @export
-#'
+# Read data 2022
+# function
 
 r4v_pull_xlsdata <- function(data)
   
