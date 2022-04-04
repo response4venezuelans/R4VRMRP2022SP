@@ -34,7 +34,7 @@ rmrptranslate <- function(data)
   # Delivery mechanism
   
   EnglishDelivery <- c("Physical cash ", "Mobile money transfer", "Bank transfer","Other electronic cash mechanisms", "Vouchers", "Others")
-  SpanishDelivery <- c("Dinero en efectivo", "Transferencia via móvil", "Transferencia Bancaria", "Otros mecanismos de dinero electrónico", "Cupones", "Otros")
+  SpanishDelivery <- c("Dinero en efectivo", "Transferencia via móvil", "Transferencia bancaria", "Otros mecanismos de dinero electrónico", "Cupones", "Otros")
   
   dfmechanism <- data.frame(EnglishDelivery, SpanishDelivery)
   
