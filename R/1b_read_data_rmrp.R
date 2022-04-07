@@ -60,11 +60,9 @@ r4v_pull_xlsdata <- function(data)
                 "Men",
                 "Other_under",
                 "Other_above"), as.numeric)%>%
-    arrange(Country, Month)
+    arrange(Country, Month)%>%
+    replace_with_na_all(condition = ~.x == "")
   
-  # Not recommended but if needed, chose to write the 5W as a xlsx file in repository
-  
-
   dfadmin1  <<- queryTable("ct51c85kxeqpu473",
                            "Country" = "c8u26b8kxeqpy0k4",
                            "Admin1" = "c3ns3zikxeqq4h95",
