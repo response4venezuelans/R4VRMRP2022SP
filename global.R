@@ -9,6 +9,7 @@ if(length(new.packages) > 0) {
   print("All packages were already installed previously")
     }
 
+if (!require("naniar")) install.packages("naniar")
 
 ## Running libraries
 library("shiny")
