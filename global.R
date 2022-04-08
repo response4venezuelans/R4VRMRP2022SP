@@ -9,7 +9,6 @@ if(length(new.packages) > 0) {
   print("All packages were already installed previously")
     }
 
-if (!require("naniar")) install.packages("naniar")
 
 ## Running libraries
 library("shiny")
@@ -24,6 +23,6 @@ library("r4vstyle")
 library("plotly")
 library("datamods") 
 library("stringdist")
-library("naniar")
+#library("naniar")
 
 
