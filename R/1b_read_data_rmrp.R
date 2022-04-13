@@ -61,7 +61,7 @@ r4v_pull_xlsdata <- function(data)
                 "Other_under",
                 "Other_above"), as.numeric)%>%
     arrange(Country, Month)%>%
-    replace_with_na_all(condition = ~.x == "")
+    na_if("")
   
   dfadmin1  <<- queryTable("ct51c85kxeqpu473",
                            "Country" = "c8u26b8kxeqpy0k4",
